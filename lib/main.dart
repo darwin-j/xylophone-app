@@ -18,52 +18,65 @@ class XylophoneApp extends StatelessWidget {
             children: [
               Center(
                 child: FlatButton(
-                    onPressed: () {
-                      playSound(1);
-                    },
-                    child: Text('click me')),
+                  color: Colors.red,
+                  onPressed: () {
+                    playSound(1);
+                  },
+                  child: null,
+                ),
               ),
               Center(
                 child: FlatButton(
-                    onPressed: () {
-                      playSound(2);
-                    },
-                    child: Text('click me')),
+                  color: Colors.orange,
+                  onPressed: () {
+                    playSound(2);
+                  },
+                  child: null,
+                ),
               ),
               Center(
                 child: FlatButton(
-                    onPressed: () {
-                      playSound(3);
-                    },
-                    child: Text('click me')),
+                  color: Colors.yellow,
+                  onPressed: () {
+                    playSound(3);
+                  },
+                  child: null,
+                ),
               ),
               Center(
                 child: FlatButton(
-                    onPressed: () {
-                      playSound(4);
-                    },
-                    child: Text('click me')),
+                  color: Colors.lightGreen,
+                  onPressed: () {
+                    playSound(4);
+                  },
+                  child: null,
+                ),
               ),
               Center(
                 child: FlatButton(
-                    onPressed: () {
-                      playSound(5);
-                    },
-                    child: Text('click me')),
+                  color: Colors.green,
+                  onPressed: () {
+                    playSound(5);
+                  },
+                  child: null,
+                ),
               ),
               Center(
-                child: FlatButton(
-                    onPressed: () {
-                      playSound(6);
-                    },
-                    child: Text('click me')),
-              ),
+                  child: FlatButton(
+                color: Colors.blue,
+                onPressed: () {
+                  playSound(6);
+                },
+                child: null,
+              )),
               Center(
                 child: FlatButton(
-                    onPressed: () {
-                      playSound(7);
-                    },
-                    child: Text('click me')),
+                  color: Colors.pink,
+                  onPressed: () {
+                    playSound(7);
+                  },
+                  child: null,
+                ),
               ),
             ],
           ),
